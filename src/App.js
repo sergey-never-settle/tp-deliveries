@@ -4,11 +4,14 @@ import './App.css';
 
 class App extends Component {
   render() {
+    const h1Style = {
+      color: 'blue'
+    };
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Test TP deliveries app</h1>
+          <h1 style={h1Style}>Test TP deliveries apps</h1>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
